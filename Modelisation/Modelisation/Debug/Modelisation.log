@@ -1,0 +1,9 @@
+﻿  Source.cpp
+d:\projets\modelisation\modelisation\graph.h(57): warning C4018: '<' : incompatibilité signed/unsigned
+d:\projets\modelisation\modelisation\graph.h(68): warning C4018: '<' : incompatibilité signed/unsigned
+d:\projets\modelisation\modelisation\gprloader.h(17): warning C4305: 'argument' : troncation de 'int' à 'char'
+d:\projets\modelisation\modelisation\gprloader.h(17): warning C4309: 'argument' : troncation de valeur de constante
+d:\projets\modelisation\modelisation\gprloader.h(31): warning C4305: 'argument' : troncation de 'int' à 'char'
+d:\projets\modelisation\modelisation\gprloader.h(31): warning C4309: 'argument' : troncation de valeur de constante
+  Modelisation.vcxproj -> D:\Projets\Modelisation\Modelisation\Debug\Modelisation.exe
+  Modelisation.vcxproj -> D:\Projets\Modelisation\Modelisation\Debug\Modelisation.pdb (Full PDB)
