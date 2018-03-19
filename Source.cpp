@@ -26,7 +26,7 @@ int main() {
 		case 1:
 			break;
 		case 2:
-			if (graph) == 0 && graph->nbrEdge() == 0) {
+			if (graph->nbrVertice == 0 && graph->nbrEdge() == 0) {
 				cout << " ----- " << endl
 					<< "Le graphe n'est pas initialise, impossible d'afficher" << endl
 					<< " ----- " << endl;
