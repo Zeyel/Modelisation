@@ -1,0 +1,10 @@
+﻿  Source.cpp
+c:\users\timbr\onedrive\documents\informatique\l3\semestre 6\modélisation\projet\modelisation\modelisation\graph.h(15): error C2664: 'Vertice::Vertice(Vertice &&)' : impossible de convertir l'argument 1 de 'int' en 'const Vertice &'
+  c:\users\timbr\onedrive\documents\informatique\l3\semestre 6\modélisation\projet\modelisation\modelisation\graph.h(15): note: Raison : impossible de convertir de 'int' en 'const Vertice'
+  c:\users\timbr\onedrive\documents\informatique\l3\semestre 6\modélisation\projet\modelisation\modelisation\graph.h(15): note: Aucun constructeur n'a pu prendre le type de source, ou la résolution de la surcharge du constructeur était ambiguë
+c:\users\timbr\onedrive\documents\informatique\l3\semestre 6\modélisation\projet\modelisation\modelisation\graph.h(57): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\timbr\onedrive\documents\informatique\l3\semestre 6\modélisation\projet\modelisation\modelisation\graph.h(68): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\timbr\onedrive\documents\informatique\l3\semestre 6\modélisation\projet\modelisation\modelisation\gprloader.h(17): warning C4305: 'argument' : troncation de 'int' à 'char'
+c:\users\timbr\onedrive\documents\informatique\l3\semestre 6\modélisation\projet\modelisation\modelisation\gprloader.h(17): warning C4309: 'argument' : troncation de valeur de constante
+c:\users\timbr\onedrive\documents\informatique\l3\semestre 6\modélisation\projet\modelisation\modelisation\gprloader.h(31): warning C4305: 'argument' : troncation de 'int' à 'char'
+c:\users\timbr\onedrive\documents\informatique\l3\semestre 6\modélisation\projet\modelisation\modelisation\gprloader.h(31): warning C4309: 'argument' : troncation de valeur de constante
