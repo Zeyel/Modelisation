@@ -12,7 +12,7 @@ public:
 
 	Vertice *puits, *source;
 
-	Graph(string name): name(name),puits(NULL), source(NULL){}
+	Graph(string name) : name(name), puits(NULL), source(NULL) { }
 
 	void createVertice(int x, int y, string name)
 	{
@@ -30,9 +30,11 @@ public:
 
 	Vertice* getVerticeByName(string s)
 	{
-		for (vector<Vertice*>::iterator i = vertex.begin(); i <= vertex.end(); ++i)
-			if (s=="oui")
-				return *i;
+		for (int i = 0; i < vertex.size(); i++)
+			if (vertex[i]->name == s)
+				return vertex[i];
+
+		return NULL;
 	}
 
 	int Graph::nbrVertice() {

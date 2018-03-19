@@ -1,16 +1,12 @@
 #include "gprLoader.h"
 #include "Graph.h"
-
 int main() {
 	int menu;
-	Graph * graph = new Graph("test");
-	graph->createVertice(0, 0, "s1");
-	graph->createVertice(1, 1, "s2");
-	graph->createEdge("a1", graph->vertex[0], graph->vertex[1], 2.5f, 5.0f);
-	graph->puits = graph->vertex[1];
-	graph->source = graph->vertex[0];
+	Graph * graph= NULL;
 
-
+	string path;
+	path = "../gpr_here/test.gpr";
+	gprLoader load;
 	do {
 		cout << "-----------------------------------------------------------------" << endl
 			<< "Bonjour, choisissez l'une des options suivantes :" << endl
@@ -29,6 +25,8 @@ int main() {
 		} while (menu < 0 || menu > 5);
 		switch (menu) {
 		case 1:
+			cout << "Saisissez le chemin vers votre gpr" << endl;
+			graph = &load(path);
 			break;
 		case 2:
 			if (graph->nbrVertice() == 0 && graph->nbrEdge() == 0) {
