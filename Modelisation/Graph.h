@@ -55,21 +55,21 @@ public:
 		ss << endl;
 		ss << "sectionSommets" << endl;
 		for (i = 0; i < p.vertex.size(); i++) {
-			ss << p.vertex[i] << endl;
+			ss << p.vertex[i]->name << " " << p.vertex[i]->x << " " << p.vertex[i]->y << endl;
 		}
 		ss << endl;
 		ss << "source" << endl;
-		ss << p.source << endl;
+		ss << p.source->name << endl;
 		ss << endl;
 		ss << "puits" << endl;
-		ss << p.puits << endl;
+		ss << p.puits->name << endl;
 		ss << endl;
 		ss << "sectionArcs" << endl;
 		for (i = 0; i < p.edges.size(); i++) {
-			ss << p.edges[i] << endl;
+			ss << p.edges[i]->name << " " << p.edges[i]->begin->name << " " << p.edges[i]->end->name << " " << p.edges[i]->cost << " " << p.edges[i]->time << endl;
 		}
 		ss << endl;
-		ss << p.name << " " << p.source << " " << p.puits << endl;
+		ss << p.name << " " << p.source->name << " " << p.puits->name << endl;
 		ss << "-----------------------------------------------------------------" << endl;
 		return ss.str();
 	}

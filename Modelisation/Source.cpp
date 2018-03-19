@@ -4,6 +4,11 @@
 int main() {
 	int menu;
 	Graph * graph = new Graph("test");
+	graph->createVertice(0, 0, "s1");
+	graph->createVertice(1, 1, "s2");
+	graph->createEdge("a1", graph->vertex[0], graph->vertex[1], 2.5f, 5.0f);
+	graph->puits = graph->vertex[1];
+	graph->source = graph->vertex[0];
 
 
 	do {
